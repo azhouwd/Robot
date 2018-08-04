@@ -1,0 +1,86 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.head,.torso,.left_arm,.right_arm,.left_leg,.right_leg{
+	background-color: #6BAFF8;
+}
+
+.head{
+	height: 150px;
+	width: 200px;
+	margin: auto;
+	border-radius: 200px 200px 0px 0px;
+	margin-bottom: 10px;
+	transition: all 1s ease;
+}
+
+.left_eye,.right_eye{
+	background-color: #fff;
+	height: 20px;
+	width: 20px;
+	display: inline-block;
+	border-radius: 10px;
+}
+
+.left_eye{
+	position: relative;
+	top: 90px;
+	left: 50px;
+}
+
+.right_eye{
+	position: relative;
+	top: 90px;
+	left: 110px;
+}
+
+.torso{
+	height: 240px;
+	width: 200px;
+	margin: auto;
+	border-radius: 0 0 60px 60px;
+}
+
+.right_arm,.left_arm{
+	position: absolute;
+	height: 120px;
+	width: 25px;
+	border-radius: 15px;
+}
+
+.left_arm{
+	left: 630px;
+}
+
+.right_arm{
+	right: 630px;
+	top: 200px;
+}
+
+.left_leg{
+	width: 40px;
+	height: 80px;
+	position: absolute;
+	left: 720px;
+	border-radius:0 0 25px 25px;
+	margin-top: 0;
+}
+
+.right_leg{
+	width: 40px;
+	height: 80px;
+	position: relative;
+	left: 775px;
+	border-radius: 0 0 25px 25px;
+}
+
+.head:hover{
+	width: 300px;
+}
+
+.left_leg:hover{
+	transform: rotate(20deg);
+}
